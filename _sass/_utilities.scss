@@ -47,7 +47,7 @@
 .header-social { fill: $color-foreground; }
 .header-social-accent { fill: $color-dot-accent; }
 .header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
-.text-accent { color: $color-text-accent; } // used for date in post list and home link
+.text-accent { color: $theme-color; } // used for date in post list and home link
 
 /* Layout utilities */
 .container { max-width: $container-width; }
@@ -177,7 +177,7 @@
   text-decoration: none;
 
   &:hover {
-    color: $color-primary-link;
+    color: $theme-color;
     text-decoration: none;
   }
 }
