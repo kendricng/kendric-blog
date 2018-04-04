@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head.html %}
-
+  <head>
+    {% include head.html %}
+  </head>
   <body>
-
-    {% include header.html %}
-
-    <div>
+    {% if page.landing-page != true %}
+    <nav>
+      {% include header.html %}
+    </nav>
+    {% endif %}
+    <main>
       {{ content }}
-    </div>
-
-    {% include footer.html %}
-
+    </main>
+    {% if page.landing-page != true %}
+    <footer>
+      {% include footer.html %}
+    </footer>
+    {% endif %}
   </body>
-
 </html>

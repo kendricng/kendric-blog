@@ -33,6 +33,13 @@ body {
     line-height: 1.5;
     color: $color-body-text;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+main{
+  flex: 1;
 }
 
 p {
@@ -59,4 +66,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+footer,
+.header{
+  background: $mute;
 }

@@ -4,7 +4,11 @@ $body-font-family: "Helvetica Neue", Arial, sans-serif;
 $body-font-size: 16px;
 $prose-font-size: 20px;
 
-
+$theme-color: #4a5;
+$light: #fff;
+$dark: #26282d;
+$mute: darken($light,3%);
+$linear: linear-gradient(to bottom right, $theme-color, lighten($theme-color, 10%));
 // Type scale
 $h0-mobile: 64px;
 $h0-desktop: 128px;
@@ -17,7 +21,7 @@ $h5-size: 16px !default;
 $h6-size: 12px !default;
 
 // Default border color
-$color-border: #ddd !default;
+$color-border: rgba(83,83,83,0.2);
 
 // Container width
 $container-width: 64em;
