@@ -7,7 +7,7 @@
     </div>
     <div class="right sm-width-full">
       <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
-        {% assign pages = site.pages | where_exp: "page", "page.page-type != 404" %}
+        {% assign pages = site.pages | where_exp: "page", "page.special != true" %}
         {% for my_page in pages %}
           {% if my_page.title %}
           <li class="inline-block">
