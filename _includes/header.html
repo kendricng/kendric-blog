@@ -11,7 +11,7 @@
         {% for my_page in pages %}
           {% if my_page.title %}
           <li class="inline-block">
-            <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | downcase }}">
+            <a class="align-middle mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | downcase }}">
               {{ my_page.title | upcase }}
             </a>
           </li>
