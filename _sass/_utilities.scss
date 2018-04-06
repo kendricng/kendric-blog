@@ -21,7 +21,7 @@
   }
 }
 
-.bold { font-weight: bold; }
+.bold { font-weight: 600; }
 .uppercase { text-transform: uppercase; }
 
 .lh-condensed { line-height: 1.25; }
@@ -162,7 +162,7 @@
 
 // Link styles for navigation
 .link-primary {
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
 
   &:hover {
