@@ -40,3 +40,9 @@ special: true
 ### Customize styles
 
 The theme color of the site can be altered inside the **_sass/variables.scss** file.
+
+### icons
+
+We'll be using fontawesome icons. Want to add more? [Learn how to use here](https://fontawesome.com/how-to-use)
+
+> look into the *Markdown sample* article in the blog page. It has some good insights on how to write articles

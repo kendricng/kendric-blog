@@ -164,22 +164,38 @@ code {
     position: absolute;
     top:5px;
     right:5px;
-    background: $linear;
-    display: inline-block;
-    height:44px;
-    padding:5px 20px;
-    color: $light;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
-    border-radius:25px;
-    font-size: 1.1rem;
-    transition: background 0.25s, color 0.2s;
-    &:hover{
-      background: $light;
-      color: $dark;
-      border: 1px solid rgba(83,83,83,0.2);
-      box-shadow: 0 2px 14px 0 rgba(83,83,83,0.2); // input fields
-    }
+    @include button;
   }
+}
+
+.social {
+  display: flex;
+  max-width: 180px;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  padding: 15px 0;
+  margin: 0 auto;
+  &-profile{
+    background: darken($mute, 2%);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+  }
+}
+
+.button{
+  @include button;
+}
+.instagram{
+  background: #fb3958;
+}
+.facebook{
+  background: #3b5998;
+}
+.twitter{
+  background: #4099FF;
 }

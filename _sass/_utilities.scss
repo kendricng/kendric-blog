@@ -160,22 +160,14 @@
   .ml-lg-4 { margin-left: $spacer-4; }
 }
 
-// Link styles for social icons
-.link-social {
-  text-decoration: none;
-  font-weight: bold;
-  line-height: 1;
-
-  &:hover {
-    text-decoration: none !important;
-  }
-}
-
 // Link styles for navigation
 .link-primary {
   font-weight: bold;
   text-decoration: none;
 
+  &:hover {
+    color: $theme-color;
+  }
   &:hover {
     color: $theme-color;
     text-decoration: none;
