@@ -1,11 +1,11 @@
 ### Answer questions
 
 1. *For the landing page, do you know how you're able to link the button with, say, a third-party service provider? If you don't know the answer to this one that's fine.*
- 
+
  Yes, it is possible to add a button. The look and feel of that button can further be customized using **css** depending on your preferences.
 
 2. *For the 404 page, is it okay to add a button below the text which redirects to a page I assign it to?*
- 
+
  Yes. Same as in case (1)
 
 ### Notes
@@ -46,3 +46,32 @@ The theme color of the site can be altered inside the **_sass/variables.scss** f
 We'll be using fontawesome icons. Want to add more? [Learn how to use here](https://fontawesome.com/how-to-use)
 
 > look into the *Markdown sample* article in the blog page. It has some good insights on how to write articles
+
+### Steps to build your own website
+
+## 0. Pre-requisites
+
+# Required
+Domain name - Namecheap
+Github
+Jekyll
+Amazon S3
+Amazon Cloudformation
+Travis and Travis-CI
+Cloudflare
+
+# Nice to haves
+Github Desktop
+Atom (from Github)
+Google Analytics
+Facebook Pixels
+Disqus
+
+## 1. Build a website locally.
+
+## 2. Deploy the website onto the server.
+Need the cloudformation.yml file
+Delete Gemfile.lock and bundle install and bundle update
+
+
+## 3. Test changes to the website before deploying.

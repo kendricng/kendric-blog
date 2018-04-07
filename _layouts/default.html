@@ -4,6 +4,12 @@
     {% include head.html %}
   </head>
   <body>
+    <script>
+      fbq('track', 'ViewContent', {
+        value: 10,
+        currency: 'USD',
+      });
+    </script>
     {% if page.landing-page != true %}
     <nav>
       {% include header.html %}
