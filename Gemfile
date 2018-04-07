@@ -28,3 +28,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Add Rake to deploy Jekyll onto the site
+gem 'rake', '~> 11.3.0'
