@@ -30,3 +30,9 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Add Rake to deploy Jekyll onto the site
 gem 'rake', '~> 11.3.0'
+
+# Run on s3
+gem 's3_website', '~> 2.16.0'
+
+# Markdown format
+gem 'kramdown', '~> 1.14.0 '
