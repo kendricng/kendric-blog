@@ -4,13 +4,14 @@ title: About
 permalink: /about/
 ---
 
+### Who Am I
 Hey y'all. My name is Kendric Ng, and you probably found this website because either:
 1. You're my friend and you have some social obligation to stalk me; or
 2. You've too much time on your hands and stumbled upon this site through cat GIFs.
 
 If you didn't realise that the above was written in jest, then this blog may not be right for you. Consult your doctor.
 
-### Objectives:
+### Objectives
 All kidding aside, I'm glad that you're spending a few seconds of your precious life here. I'll update my main objectives for this site, but for now I'll list them here for you:
 * A way for me to digest my thoughts and "write" them on "paper";
 * A gathering for people who think like me to exchange thoughts and ideas;
