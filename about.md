@@ -4,18 +4,20 @@ title: About
 permalink: /about/
 ---
 
-Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
+Hey y'all. My name is Kendric Ng, and you probably found this website because either:
+1. You're my friend and you have some social obligation to stalk me; or
+2. You've too much time on your hands and stumbled upon this site through cat GIFs.
 
-### Features:
-* Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
-* Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
-* Supports a wide range of HTML elements and markdown.
-* Flexible styles that can be reused for customization without adding additional CSS.
-* Simple styling for code snippets (if you want something with syntax highlighting, checkout ....)
-* Dynamically generated navigation links. See docs below for adding pages with specific post category for-loops.
+If you didn't realise that the above was written in jest, then this blog may not be right for you. Consult your doctor.
 
-## Themes
+### Objectives:
+All kidding aside, I'm glad that you're spending a few seconds of your precious life here. I'll update my main objectives for this site, but for now I'll list them here for you:
+* A way for me to digest my thoughts and "write" them on "paper";
+* A gathering for people who think like me to exchange thoughts and ideas;
+* An online CV for recruiters and networkers so they can stalk me and know what I'm like before they make a mistake of working with me;
+* Easy testing and deployment of business ideas (was too frustrated with Wordpress and its plugins);
+* [TBD among others]
 
-## Browser Support
+If you want to know how I built this site, or just want to have a fun guy to talk to, email me at ngkendric@gmail.com
 
-## Installation
+Welcome to my humble abode. Remember to please leave your shoes outside the door (and wear some socks, please).
