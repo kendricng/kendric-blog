@@ -50,20 +50,31 @@
 .text-accent { color: $theme-color; } // used for date in post list and home link
 
 /* Layout utilities */
-.container { max-width: $container-width; }
+.container {
+   max-width: $container-width; 
+   &__flex{
+     @media screen and (min-width: 769px) {
+       display:flex;
+       flex-flow: row wrap;
+       justify-content: space-between;
+     }
+   }
+}
 
-.col-1 { width: (1 / 12 * 100%); }
-.col-2 { width: (2 / 12 * 100%); }
-.col-3 { width: (3 / 12 * 100%); }
-.col-4 { width: (4 / 12 * 100%); }
-.col-5 { width: (5 / 12 * 100%); }
-.col-6 { width: (6 / 12 * 100%); }
-.col-7 { width: (7 / 12 * 100%); }
-.col-8 { width: (8 / 12 * 100%); }
-.col-9 { width: (9 / 12 * 100%); }
-.col-10 { width: (10 / 12 * 100%); }
-.col-11 { width: (11 / 12 * 100%); }
-.col-12 { width: 100%; }
+@media screen and (min-width: 769px) {
+  .col-1 { width: (1 / 12 * 100%); }
+  .col-2 { width: (2 / 12 * 100%); }
+  .col-3 { width: (3 / 12 * 100%); }
+  .col-4 { width: (4 / 12 * 100%); }
+  .col-5 { width: (5 / 12 * 100%); }
+  .col-6 { width: (6 / 12 * 100%); }
+  .col-7 { width: (7 / 12 * 100%); }
+  .col-8 { width: (8 / 12 * 100%); }
+  .col-9 { width: (9 / 12 * 100%); }
+  .col-10 { width: (10 / 12 * 100%); }
+  .col-11 { width: (11 / 12 * 100%); }
+  .col-12 { width: 100%; }
+}
 
 @media (max-width: $breakpoint-lg) {
   .sm-width-full { width: 100% !important; }
@@ -171,5 +182,15 @@
   &:hover {
     color: $theme-color;
     text-decoration: none;
+  }
+}
+
+
+@keyframes pulse {
+  0%{
+    transform: translateY(-5px) rotate(90deg);
+  }
+  100%{
+    transform: translateY(5px) rotate(90deg);
   }
 }

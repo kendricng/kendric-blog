@@ -1,5 +1,5 @@
 // Color variables
-$dark: #26282d;
+$dark: #24292e;
 $red: #E74727;
 $red-small: #DC3918;
 $theme-color: #4a5;
@@ -16,7 +16,7 @@ $linear: linear-gradient(to bottom right, $theme-color, lighten($theme-color, 10
 $body-font-family:'Lato', 'Helvetica Neue', Arial, sans-serif;
 $heading-font: 'Montserrat', 'Helvetia Neue', Arial, sans-serif;
 $body-font-size: 16px;
-$prose-font-size: 20px;
+$prose-font-size: 16px;
 
 // Type scale
 $h0-mobile: 64px;
@@ -79,4 +79,5 @@ $color-primary-link: $red !default;
     box-shadow: 0 2px 14px 0 rgba(83,83,83,0.2); // input fields
     text-decoration: none;
   }
+  @content;
 }
