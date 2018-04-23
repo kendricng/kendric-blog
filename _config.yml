@@ -12,6 +12,12 @@ url: https://www.kendric.blog
 twitter_username: kendricng
 github_username:  kenterminator
 
+disqus:
+  shortname: 'onweru'
+mailchimp:
+  url: https://societypieces.us16.list-manage.com/subscribe/post?u=bab6ad2e6b37baee2ac6487ba&amp;id=527733b981
+  hidden: b_bab6ad2e6b37baee2ac6487ba_527733b981
+
 font-url: 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700'
 
 # Build settings
