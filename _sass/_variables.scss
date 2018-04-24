@@ -4,7 +4,7 @@ $red: #E74727;
 $red-small: #DC3918;
 $theme-color: #4a5;
 $light: #fff;
-$mute: darken($light,4%);
+$mute: darken($light, 3%);
 $linear: linear-gradient(to bottom right, $theme-color, lighten($theme-color, 10%));
 
 .font-smoothing {
