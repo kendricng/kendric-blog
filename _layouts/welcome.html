@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class = 'mat'>
-  <div class = 'mat__inner'>
+  <div class = 'mat__inner px-2'>
     <div class = 'text-center'>
       <h1>Hello, Welcome</h1>
       <p>Hmm, this is how it looks like. Did I get it right?</p>
@@ -16,7 +16,7 @@ layout: default
     <a class = 'round' href = '#deals'><div class = 'angle'></div></a>
   </div>
 </div>
-<article class = 'container container__flex px-3 mx-auto mb4' itemscope itemtype = 'http://schema.org/BlogPosting'>
+<article class = 'container container__flex px-2 mx-auto mb4' itemscope itemtype = 'http://schema.org/BlogPosting'>
   <div class = 'col-3'>
     {% include subscribe/sidebar-optin.html %}
   </div>
@@ -25,6 +25,8 @@ layout: default
       {{ content }}
     </div>
     {% include subscribe/optin.html %}
-    {% include comments.html %}
+    <div class = 'dark'>
+      {% include comments.html %}
+    </div>
   </div>
 </article>
