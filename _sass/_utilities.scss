@@ -185,12 +185,15 @@
   }
 }
 
+.shadow{
+  box-shadow: 0px 5px 20px 0 rgba(12,84,141,0.1);
+}
 
 @keyframes pulse {
   0%{
-    transform: translateY(-5px) rotate(90deg);
+    transform: translateY(-7.5px) rotate(90deg);
   }
   100%{
-    transform: translateY(5px) rotate(90deg);
+    transform: translateY(0) rotate(90deg);
   }
 }

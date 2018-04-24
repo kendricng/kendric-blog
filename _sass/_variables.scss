@@ -4,7 +4,7 @@ $red: #E74727;
 $red-small: #DC3918;
 $theme-color: #4a5;
 $light: #fff;
-$mute: darken($light,5%);
+$mute: darken($light,4%);
 $linear: linear-gradient(to bottom right, $theme-color, lighten($theme-color, 10%));
 
 .font-smoothing {
@@ -69,13 +69,15 @@ $color-primary-link: $red !default;
   cursor: pointer;
   border-radius:25px;
   padding:5px 20px;
-  background: $linear;
+  background: $theme-color;
+  border: 1px solid transparent;
   font-size: 1.1rem;
   transition: background 0.25s, color 0.2s;
+  min-width: 150px;
+  text-align: center;
   &:hover{
     background: $light;
-    color: $dark;
-    border: 1px solid rgba(83,83,83,0.2);
+    color: $dark;;
     box-shadow: 0 2px 14px 0 rgba(83,83,83,0.2); // input fields
     text-decoration: none;
   }

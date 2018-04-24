@@ -191,7 +191,19 @@ code {
 }
 
 .button{
-  @include button;
+  &,&__light{
+    @include button;
+  }
+  &__light{
+    margin: 15px auto;
+    background: darken($mute, 5%);
+    color: $dark;
+  }
+  &__simple{
+    border-radius: 5px;
+    display: inline-flex;
+    padding-right: 5px;
+  }
 }
 .instagram{
   background: #fb3958;
@@ -206,45 +218,23 @@ code {
 // welcome mat
 .mat{
   width: 100%;
-  height: 90vh;
-  background-color: $dark;
-  background-image: url(/assets/ipad.jpg);
-  background-position: center;
-  // background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  height: 100vh;
+  background: $mute;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 90px;
   overflow: hidden;
+  color: $dark;
   p{
-    color: darken($light, 5%);
-  }
-  &:after,
-  &:before{
-    content: '';
-    position: absolute;
-    width:54%;
-    height:100px;
-    background: $light;
-    bottom: -36px;
-  }
-  &:after{
-    right:0;
-    transform: rotate(-5deg) translateX(4%);
-  }
-  &:before{
-    left:0;
-    transform: rotate(5deg) translateX(-4%);
+    color: lighten($dark, 5%);
   }
 
   &__inner{
-    height: 90vh;
-    background: rgba(0,0,0,0.7);
+    height: 100vh;
+    background: transparent;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $light;
   }
 }
 
