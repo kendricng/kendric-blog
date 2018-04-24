@@ -191,11 +191,11 @@ code {
 }
 
 .button{
-  &,&__light{
+  &,&__light,&__simple{
     @include button;
+    margin: 25px auto;
   }
   &__light{
-    margin: 15px auto;
     background: darken($mute, 5%);
     color: $dark;
   }
@@ -268,9 +268,6 @@ code {
   display: inline-flex;
   margin:20px auto;
   cursor: pointer;
-  position: absolute;
-  bottom: 50px;
-  left: 48.5%;
   transition: all 0.3s ease-out;
   &:hover{
     opacity: 0.8;
