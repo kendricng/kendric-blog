@@ -75,3 +75,23 @@ Delete Gemfile.lock and bundle install and bundle update
 
 
 ## 3. Test changes to the website before deploying.
+
+
+## buttons
+There are three types of buttons
+1. A green button. Uses a class of *button*
+2. A grey button. Uses a class of *button__light*
+3. A button with a simple border radius. Uses a class of *button__simple*
+
+> You can combine these classes to achieve a certain effect. See the following example
+
+```html
+  <!-- a green button with a full round border radius -->
+  <a href = '' class = 'button'>I'm Green</a>
+  <!-- a green button with a subtle border radius -->
+  <a href = '' class = 'button button__simple'>Get Started</a>
+  <!-- a grey button with a subtle border radius -->
+  <a href = '' class = 'button__light button__simple'>Learn More</a>
+```
+Some of this code is in the *_layouts/welcome.html* template
+
