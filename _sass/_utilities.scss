@@ -184,7 +184,16 @@
     text-decoration: none;
   }
 }
-
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  background: rgba(12,84,141,0.01);
+}
 .shadow{
   box-shadow: 0px 5px 20px 0 rgba(12,84,141,0.1);
 }
@@ -206,14 +215,14 @@
   }
   100%{
     width: 360px;
-    padding: $margin*3 $margin;
+    padding: $margin*3 $margin $margin 0;
     opacity: 1;
   }
 }
 @keyframes hide{
   0%{
     width: 360px;
-    padding: $margin*3 $margin;
+    padding: $margin*3 $margin $margin 0;
     opacity: 1;
   }
   100%{
