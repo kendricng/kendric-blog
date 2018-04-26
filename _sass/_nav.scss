@@ -1,0 +1,65 @@
+nav{
+  // padding: $padding;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+}
+.menu{
+  padding: 0;
+  background: $mute;
+  &__decorate{
+    position: absolute;
+    height: 44px;
+    top: 200px;
+    background: $red;
+    padding: 2px;
+    z-index: 99999999999;
+    left: 0;
+  }
+  &__drop{
+    background: $light;
+    overflow: hidden;
+    top: 0;
+    left: $padding;
+    bottom: 0;
+    position: fixed;
+    z-index: 999999999;
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    box-shadow: 0 25px 60px 0 rgba(158, 174, 221, 0.25);
+  }
+  &__inner{
+    padding: $padding;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
+  }
+  &__item{
+    padding: $padding 0;
+    color: $dark;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+      opacity: 0.9;
+      text-decoration: underline;
+    }
+  }
+  &__toggle{
+    position: absolute;
+    color: red;
+    padding: $padding;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    right: 25px;
+    top: 0;
+    z-index: 9999;
+    cursor: pointer;
+  }
+  &__open{
+    animation: show 0.3s ease-out forwards;
+  }
+  &__hide{
+    animation: hide 0.3s ease-out forwards;
+  }
+}

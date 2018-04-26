@@ -197,3 +197,28 @@
     transform: translateY(0) rotate(90deg);
   }
 }
+
+@keyframes show{
+  0%{
+    width: 0;
+    padding: 0;
+    opacity: 0;
+  }
+  100%{
+    width: 360px;
+    padding: $margin*3 $margin;
+    opacity: 1;
+  }
+}
+@keyframes hide{
+  0%{
+    width: 360px;
+    padding: $margin*3 $margin;
+    opacity: 1;
+  }
+  100%{
+    width: 0;
+    padding: 0;
+    opacity: 0;
+  }
+}

@@ -6,6 +6,8 @@ $theme-color: #4a5;
 $light: #fff;
 $mute: darken($light, 3%);
 $linear: linear-gradient(to bottom right, $theme-color, lighten($theme-color, 10%));
+$padding: 15px;
+$margin: 25px;
 
 .font-smoothing {
   -webkit-font-smoothing: antialiased;

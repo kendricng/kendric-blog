@@ -1,23 +1,21 @@
-<div class = 'header py-2'>
-  <header class="header-inner px-2 clearfix">
-    <div class="left sm-width-full py-1 mt-1 mt-lg-0">
+<div class = 'menu'>
+  <div class = 'menu__inner'>
+    <a class="align-middle link-primary text-accent" href="{{ site.baseurl }}/">
+      {{ site.title }}
+    </a>
+    <div class = 'menu__toggle'>
+      &#9776;
+    </div>
+  </div>
+  <div class = 'menu__overlay'>
+    <div class = 'menu__drop'>
+      <div class = 'menu__decorate'></div>
       <a class="align-middle link-primary text-accent" href="{{ site.baseurl }}/">
         {{ site.title }}
       </a>
+      {% for item in site.data.menu %}
+       <a href = '/{{ item | slugify | downcase }}' class = 'menu__item'> {{ item }}</a>
+      {% endfor %}
     </div>
-    <div class="right sm-width-full">
-      <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
-        {% assign pages = site.pages | where_exp: "page", "page.special != true" %}
-        {% for my_page in pages %}
-          {% if my_page.title %}
-          <li class="inline-block">
-            <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | downcase }}">
-              {{ my_page.title | upcase }}
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </header>
+  </div>
 </div>
