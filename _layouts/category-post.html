@@ -19,9 +19,9 @@ layout: default
     {% include subscribe/sidebar-optin.html %}
   </div>
   <div class = 'col-8'>
-    <h1 class="col-9 sm-width-full py-2 inline-block" itemprop="name headline">{{ page.title }}</h1>
-    <div class="col-4 sm-width-full">
-      <p class="mb-3 py-2 bold h4"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    <h1 itemprop="name headline">{{ page.title }}</h1>
+    <div>
+      <p class="mb-2 py-1 bold h4"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
     </div>
     <div class = 'prose' itemprop = 'articleBody'>
       {{ content }}
