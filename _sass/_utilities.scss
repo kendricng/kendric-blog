@@ -32,10 +32,10 @@
 }
 
 /* Border utilities */
-.border-bottom-thick { border-bottom: 2px solid; border-color: currentColor; }
-.border-bottom-thin { border-bottom: 1px solid; border-color: currentColor; }
-.border-top-thick { border-top: 2px solid; border-color: currentColor; }
-.border-top-thin { border-top: 1px solid; border-color: currentColor; }
+.border-bottom-thick { border-bottom: 2px solid $mute; }
+.border-bottom-thin { border-bottom: 1px solid $mute; }
+.border-top-thick { border-top: 2px solid $mute; }
+.border-top-thin { border-top: 1px solid $mute; }
 .border-0 { border: 0; }
 
 
@@ -49,7 +49,7 @@
 .header-link:hover { color: $color-nav-link !important; } // used for navigation links on homepage
 .text-accent { color: $theme-color; } // used for date in post list and home link
 
-/* Layout utilities */
+// Layout utilities 
 .container {
    max-width: $container-width; 
    &__flex{
