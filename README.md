@@ -95,3 +95,11 @@ There are three types of buttons
 ```
 Some of this code is in the *_layouts/welcome.html* template
 
+
+
+## comments
+Disqus comments are enabled on posts by default
+To disable Disqus comments on a post, include the following in the front matter
+```yaml
+comments: false
+```
