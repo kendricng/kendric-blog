@@ -204,6 +204,9 @@ code {
     display: inline-flex;
     padding-right: 5px;
   }
+  &__small{
+    min-width: 120px;
+  }
 }
 .instagram{
   background: #fb3958;
