@@ -6,7 +6,7 @@
   <div class = 'menu__overlay'>
     <div class = 'menu__drop'>
       {% for item in site.data.menu %}
-        {% if forloop.index == 1 %}  
+        {% if forloop.index == 1 %}
           {% assign link = '/' %}
         {% else %}
           {% assign link = item | slugify | downcase | prepend: '/' | append: '/' %}

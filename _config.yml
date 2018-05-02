@@ -2,9 +2,9 @@ title: The Kendric Blog
 email: ngkendric@gmail.com
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to the personal blog of Mr Kendric Ng. This is where he jots down his
+  thoughts, tests concepts and discusses ideas with like-minded people. Enjoy at
+  your own risk.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 
@@ -30,12 +30,9 @@ sass:
 
 # social profiles
 social:
-  - profile: facebook
-    url: ''
-    icon: 'fab fa-facebook-f'
   - profile: twitter
-    url: ''
+    url: 'https://twitter.com/kendricng'
     icon: 'fab fa-twitter'
-  - profile: instagram
-    url: ''
-    icon: 'fab fa-instagram'
+  - profile: github
+    url: 'https://github.com/kenterminator'
+    icon: 'fab fa-github'
