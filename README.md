@@ -103,7 +103,8 @@ comments: false
 ## Mailchimp buttons
 To ensure that we don't repeat ourselves, we load the mailchimp code once. This code is loaded in *_includes/subscribes/mailchimp.md*. This script is then included in optin templates. This has already been done.
 
-Therefore all you need to do to make a button that triggers the mailchimp popup widget is add a *button__opt* class to the html element you wish. 
+Therefore all you need to do to make a button that triggers the mailchimp popup widget is add a *button__opt* class to the html element you wish.
+ 
 ```
 <element class = 'button__opt'>Show the mailchimp box</div>
 ```
