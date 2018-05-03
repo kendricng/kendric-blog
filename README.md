@@ -106,5 +106,6 @@ To ensure that we don't repeat ourselves, we load the mailchimp code once. This 
 Therefore all you need to do to make a button that triggers the mailchimp popup widget is add a *button__opt* class to the html element you wish.
  
 ```
-<element class = 'button__opt'>Show the mailchimp box</div>
+<div class = 'button__opt'>Show the mailchimp box</div>
 ```
+> the button element must not be a **div**
