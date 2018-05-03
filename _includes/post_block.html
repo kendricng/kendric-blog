@@ -1,6 +1,6 @@
 <!-- Renders post date, title, and snippet of text. -->
 <div class="py-2 prose">
-  <a class="no-underline h5 bold text-accent" title="{{ post.url }}" href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+  <a class="no-underline h5 text-accent" title="{{ post.url }}" href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a>
   <h2>
     <a class="link-primary" title="{{ post.url }}" href="{{ post.url }}">{{ post.title }}</a>
   </h2>
