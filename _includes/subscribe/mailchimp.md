@@ -1,11 +1,7 @@
 <!-- mailchimp code -->
-<script 
-  type="text/javascript"
-  src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js"
-  data-dojo-config="usePlainJson: true, isDebug: false">
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false">
 </script>
-<script 
-  type="text/javascript">
+<script type="text/javascript">
   function showMailingPopUp() {
     require(
       ["mojo/signup-forms/Loader"],
@@ -29,4 +25,3 @@
   }
 </script>
 <!-- end mailchimp code -->
-
