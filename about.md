@@ -19,6 +19,6 @@ All kidding aside, I'm glad that you're spending a few seconds of your precious 
 * Easy testing and deployment of business ideas (was too frustrated with Wordpress and its plugins);
 * [TBD among others]
 
-If you want to know how I built this site, or just want to have a fun guy to talk to, email me at ngkendric@gmail.com
+If you want to know how I built this site, or just want to have a fun guy to talk to, email me at royalmuses@gmail.com.
 
 Welcome to my humble abode. Remember to please leave your shoes outside the door (and wear some socks, please).

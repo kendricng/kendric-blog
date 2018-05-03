@@ -2,11 +2,11 @@
 
 1. *For the landing page, do you know how you're able to link the button with, say, a third-party service provider? If you don't know the answer to this one that's fine.*
 
- Yes, it is possible to add a button. The look and feel of that button can further be customized using **css** depending on your preferences.
+ Yes, it is possible to add a button. The look and feel of that button can further be customised using **css** depending on your preferences.
 
 2. *For the 404 page, is it okay to add a button below the text which redirects to a page I assign it to?*
 
- Yes. Same as in case (1)
+Yes. Same as in case (1)
 
 ### Notes
 The landing page has a special variable
@@ -73,9 +73,7 @@ Disqus
 Need the cloudformation.yml file
 Delete Gemfile.lock and bundle install and bundle update
 
-
 ## 3. Test changes to the website before deploying.
-
 
 ## buttons
 There are three types of buttons
@@ -94,8 +92,6 @@ There are three types of buttons
   <a href = '' class = 'button__light button__simple'>Learn More</a>
 ```
 Some of this code is in the *_layouts/welcome.html* template
-
-
 
 ## comments
 Disqus comments are enabled on posts by default
