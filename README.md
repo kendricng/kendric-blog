@@ -72,6 +72,7 @@ Delete Gemfile.lock and bundle install and bundle update
 ### 3. Test changes to the website before deploying.
 
 ### buttons
+
 There are three types of buttons
 1. A green button. Uses a class of *button*
 2. A grey button. Uses a class of *button__light*
