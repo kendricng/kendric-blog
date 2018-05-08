@@ -109,3 +109,27 @@ Therefore all you need to do to make a button that triggers the mailchimp popup 
 <div class = 'button__opt'>Show the mailchimp box</div>
 ```
 > the button element must not be a **div**
+
+## Customize the bottom optin box
+You may want to customize what appears in the bottom optin box for each page.
+
+To make this possible, I have set defaults for this in the **_config.yml** file. In situations where you don't need  any customization, these defaults will be used.
+
+```yaml 
+  ...
+  optin: 
+    heading: Subscribe to updates
+    description: We don't send junk emails; that's a promise.
+    link: ''
+    button: ''
+```
+
+To do the actual customization, check how I override these default values in the **landing.md** file.
+
+```yaml
+optin: 
+  heading: Stay Tuned
+  description: Yeay ........ dot dot dot
+```
+
+Notice that you must not override every value. Every value that you do not specify will default to the defaults.
