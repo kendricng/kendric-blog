@@ -1,6 +1,7 @@
 <div class = 'opt__in text-center'>
-  <h3 class = 'center'>Subscribe to updates </h3>
-  <p><em>We don't send junk emails; that's a promise.</em></p>
+  {% assign optin = page.optin %}
+  <h3 class = 'center'>{{ optin.heading }}</h3>
+  <p><em>{{ optin.description }}</em></p>
   <div class = 'button__light button__opt'>Optin Now</div>
 </div>
 {% include subscribe/mailchimp.md %}
