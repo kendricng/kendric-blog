@@ -1,12 +1,8 @@
 ### Answer questions
 
-1. *For the landing page, do you know how you're able to link the button with, say, a third-party service provider? If you don't know the answer to this one that's fine.*
+1. *For the 404 page, is it okay to add a button below the text which redirects to a page I assign it to?*
 
- Yes, it is possible to add a button. The look and feel of that button can further be customised using **css** depending on your preferences.
-
-2. *For the 404 page, is it okay to add a button below the text which redirects to a page I assign it to?*
-
-Yes. Same as in case (1)
+Yes.
 
 ### Notes
 The landing page has a special variable
@@ -49,9 +45,9 @@ We'll be using fontawesome icons. Want to add more? [Learn how to use here](http
 
 ### Steps to build your own website
 
-## 0. Pre-requisites
+#### 0. Pre-requisites
 
-# Required
+#### Required
 Domain name - Namecheap
 Github
 Jekyll
@@ -60,22 +56,22 @@ Amazon Cloudformation
 Travis and Travis-CI
 Cloudflare
 
-# Nice to haves
+### Nice to haves
 Github Desktop
 Atom (from Github)
 Google Analytics
 Facebook Pixels
 Disqus
 
-## 1. Build a website locally.
+### 1. Build a website locally.
 
-## 2. Deploy the website onto the server.
+### 2. Deploy the website onto the server.
 Need the cloudformation.yml file
 Delete Gemfile.lock and bundle install and bundle update
 
-## 3. Test changes to the website before deploying.
+### 3. Test changes to the website before deploying.
 
-## buttons
+### buttons
 There are three types of buttons
 1. A green button. Uses a class of *button*
 2. A grey button. Uses a class of *button__light*
@@ -93,14 +89,14 @@ There are three types of buttons
 ```
 Some of this code is in the *_layouts/welcome.html* template
 
-## comments
+### comments
 Disqus comments are enabled on posts by default
 To disable Disqus comments on a post, include the following in the front matter
 ```yaml
 comments: false
 ```
 
-## Mailchimp buttons
+### Mailchimp buttons
 To ensure that we don't repeat ourselves, we load the mailchimp code once. This code is loaded in *_includes/subscribe/mailchimp.md*. This script is then included in optin templates. This has already been done.
 
 Therefore all you need to do to make a button that triggers the mailchimp popup widget is add a *button__opt* class to the html element you wish.
@@ -133,3 +129,5 @@ optin:
 ```
 
 Notice that you must not override every value. Every value that you do not specify will default to the defaults.
+
+> Now, how about if you want to edit the bottom-optin box template? This file is at ***_includes/subscribe/optin.html***
