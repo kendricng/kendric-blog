@@ -229,3 +229,10 @@
     opacity: 0;
   }
 }
+
+@media screen and (min-width: 567px) {
+  .divider{
+    display: inline-block;
+    margin: 0 15px;
+  }
+}
