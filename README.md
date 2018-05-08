@@ -138,7 +138,7 @@ optin:
 
 #### Note
 
-1. if you choose to customize the optin box, you must specify every value. Failure to do so will break things.
+1. If you choose to customize the optin box, you must specify every value. Failure to do so will break things.
 2. If you want to add a download link, you must specify that the link is of type *download*, like so
 
 ```yaml
