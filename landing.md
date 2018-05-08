@@ -5,8 +5,13 @@ title: Welcome to Kendric Blog
 permalink: /landing/
 special: true
 optin: 
-  heading: Stay Tuned
+  button: 'Optin Now'
   description: Yeay ........ dot dot dot
+  heading: Stay Tuned
+  link: 
+    url: 'https://www.tutorialspoint.com/amazon_web.../amazon_web_services_tutorial.pdf'
+    text: 'Download PDF'
+    type: 'download'
 ---
 
 Forget about constant frugality. My Free Insider's Kit will show you how to earn more money.

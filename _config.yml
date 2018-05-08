@@ -45,7 +45,10 @@ defaults:
       layout: 'post'
       permalink: /:title/
       optin: 
-        heading: Subscribe to updates
+        button: 'Optin Now'
         description: We don't send junk emails; that's a promise.
-        link: ''
-        button: ''
+        heading: Subscribe to updates
+        link:
+          url: '/blog/'
+          text: 'All Articles'
+          type: null

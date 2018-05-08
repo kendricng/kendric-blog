@@ -112,22 +112,39 @@ You may want to customize what appears in the bottom optin box for each page.
 To make this possible, I have set defaults for this in the **_config.yml** file. In situations where you don't need  any customization, these defaults will be used.
 
 ```yaml 
-  ...
-  optin: 
-    heading: Subscribe to updates
-    description: We don't send junk emails; that's a promise.
-    link: ''
-    button: ''
+...
+optin: 
+  button: 'Optin Now'
+  description: We don't send junk emails; that's a promise.
+  heading: Subscribe to updates
+  link:
+    url: '/blog/'
+    text: 'All Articles'
+    type: null
 ```
 
 To do the actual customization, check how I override these default values in the **landing.md** file.
 
 ```yaml
 optin: 
-  heading: Stay Tuned
+  button: 'Optin Now'
   description: Yeay ........ dot dot dot
+  heading: Stay Tuned
+  link: 
+    url: 'https://www.tutorialspoint.com/amazon_web.../amazon_web_services_tutorial.pdf'
+    text: 'Download PDF'
+    type: 'download'
 ```
 
-Notice that you must not override every value. Every value that you do not specify will default to the defaults.
+#### Note
+
+1. if you choose to customize the optin box, you must specify every value. Failure to do so will break things.
+2. If you want to add a download link, you must specify that the link is of type *download*, like so
+
+```yaml
+link: 
+  type: 'download'
+```
+3. Identying is of outmost importance
 
 > Now, how about if you want to edit the bottom-optin box template? This file is at ***_includes/subscribe/optin.html***
