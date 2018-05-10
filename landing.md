@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: landing
 landing-page: true # hides header and footer
 title: Welcome to Kendric Blog
 permalink: /landing/

@@ -1,19 +1,7 @@
 ---
 layout: default
 ---
-<div class = 'mat'>
-  <div class = 'mat__inner px-2'>
-    <div class = 'text-center'>
-      <h1>Keep You Posted</h1>
-      <p>I'll let you know when I update my blog.</p>
-    </div>
-    <!-- scroll button -->
-    <div class = 'text-center'>
-      <div class = 'button button__opt'>Join the Discussion</div>
-    </div>
-    <a class = 'round' href = '#deals'><div class = 'angle'></div></a>
-  </div>
-</div>
+{% include subscribe/mat.html %}
 <article class = 'container container__flex px-2 mx-auto' itemscope itemtype = 'http://schema.org/BlogPosting'>
   <div class = 'col-3'>
     {% include subscribe/sidebar-optin.html %}
