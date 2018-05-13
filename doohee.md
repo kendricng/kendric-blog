@@ -12,6 +12,8 @@ optin:
     type: 'download'
 ---
 
+![](https://picsum.photos/5000/3250?image=8)
+
 Did you know that with just a few tweaks, your website can be ranking on the top page of Google, thereby increasing your web traffic and thus sales? Let an expert fix that for you **TODAY**.
 
 For the longest time, I didn’t really know that I needed to have my website show up on the first page of search results. People have been telling me that I just need to build my website, and people will come. But the thing is...

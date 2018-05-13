@@ -5,7 +5,7 @@
   function showMailingPopUp() {
     require(
       ["mojo/signup-forms/Loader"],
-      function(L) { 
+      function(L) {
         L.start({
           "baseUrl":"mc.us13.list-manage.com",
           "uuid":"00a89507614f5411798c66b51",
