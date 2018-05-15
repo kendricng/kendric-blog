@@ -2,7 +2,7 @@
 layout:     post
 title:      "Five Fast Ways to Attract More Customers to Your Website"
 date:       2018-05-02
-permalink:  attract-customers-to-website
+permalink:  /attract-customers-to-website/
 comments:   false
 ---
 
