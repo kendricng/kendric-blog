@@ -19,6 +19,7 @@
   if (opts != null) {
     opts.forEach((opt) => {
       opt.addEventListener('click', function() {
+        console.log('mailchimp');
         showMailingPopUp();
       });
     });
