@@ -22,8 +22,6 @@ For the longest time, I didn’t really know that I needed to have my website sh
 
 But when this expert did a few tweaks in the back end of my website, I found out that I was suddenly getting this huge surge of traffic. I had to even double check my screen to make sure that it wasn’t lying to me.
 
-[insert screen cap here]
-
 When people searched for a particular thing, 74% of that traffic comes through Google. Also, over 59% of Google traffic comes from only the FIRST THREE links that pop up in the results.
 
 > My mind = blown.

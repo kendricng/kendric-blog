@@ -97,24 +97,24 @@ To disable Disqus comments on a post, include the following in the front matter
 comments: false
 ```
 
-### Mailchimp buttons
-To ensure that we don't repeat ourselves, we load the mailchimp code once. This code is loaded in *_includes/subscribe/mailchimp.md*. This script is then included in optin templates. This has already been done.
+### MailChimp buttons
+To ensure that we don't repeat ourselves, we load the MailChimp code once. This code is loaded in *_includes/subscribe/mailchimp.md*. This script is then included in opt-in templates. This has already been done.
 
-Therefore all you need to do to make a button that triggers the mailchimp popup widget is add a *button__opt* class to the html element you wish.
- 
+Therefore all you need to do to make a button that triggers the MailChimp popup widget is add a *button__opt* class to the html element you wish.
+
 ```
 <div class = 'button__opt'>Show the mailchimp box</div>
 ```
 > the button element must not be a **div**
 
-## Customize the bottom optin box
-You may want to customize what appears in the bottom optin box for each page.
+## Customize the bottom opt-in box
+You may want to customize what appears in the bottom opt-in box for each page.
 
-To make this possible, I have set defaults for this in the **_config.yml** file. In situations where you don't need  any customization, these defaults will be used.
+To make this possible, I have set defaults for this in the **_config.yml** file. In situations where you don't need any customization, these defaults will be used.
 
-```yaml 
+```yaml
 ...
-optin: 
+optin:
   button: 'Optin Now'
   description: We don't send junk emails; that's a promise.
   heading: Subscribe to updates
@@ -127,11 +127,11 @@ optin:
 To do the actual customization, check how I override these default values in the **landing.md** file.
 
 ```yaml
-optin: 
+optin:
   button: 'Optin Now'
   description: Yeay ........ dot dot dot
   heading: Stay Tuned
-  link: 
+  link:
     url: 'https://www.tutorialspoint.com/amazon_web.../amazon_web_services_tutorial.pdf'
     text: 'Download PDF'
     type: 'download'
@@ -139,13 +139,13 @@ optin:
 
 #### Note
 
-1. If you choose to customize the optin box, you must specify every value. Failure to do so will break things.
+1. If you choose to customize the opt-in box, you must specify every value. Failure to do so will break things.
 2. If you want to add a download link, you must specify that the link is of type *download*, like so
 
 ```yaml
-link: 
+link:
   type: 'download'
 ```
-3. Identying is of outmost importance
+3. Identifying is of outmost importance
 
-> Now, how about if you want to edit the bottom-optin box template? This file is at ***_includes/subscribe/optin.html***
+> Now, how about if you want to edit the bottom opt-in box template? This file is at ***_includes/subscribe/optin.html***

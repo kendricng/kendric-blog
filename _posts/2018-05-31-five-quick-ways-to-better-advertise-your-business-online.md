@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Five Fast Ways to Attract More Customers to Your Website"
-date:       2018-05-02
-permalink:  /attract-customers-to-website/
+title:      "Five Quick Ways to Better Advertise Your Business Online"
+date:       2018-05-31
+permalink:  /advertise-online/
 comments:   false
 ---
 
