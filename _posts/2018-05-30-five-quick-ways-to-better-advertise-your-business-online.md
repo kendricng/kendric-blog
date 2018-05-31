@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Five Quick Ways to Better Advertise Your Business Online"
-date:       2018-05-31
+date:       2018-05-30
 permalink:  /advertise-online/
 comments:   false
 ---
